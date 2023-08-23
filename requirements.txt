@@ -1,0 +1,8 @@
+google-cloud-storage==2.10.0
+google-cloud-bigquery==3.11.4
+scikit-learn==1.2.2
+db-dtypes==1.1.1
+numpy==1.25.2
+gensim==4.3.1
+pandas==1.5.3
+nltk==3.8.1

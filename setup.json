@@ -1,0 +1,9 @@
+{
+    "USE_GCP" : "false",
+    "PROJECT_ID" : "project-id",
+    "REGION" : "location",
+    "DATASET_ID" : "dataset-id",
+    "TABLE_INPUT_ID" : "inputs",
+    "TABLE_OUTPUT_ID" : "outputs",
+    "TABLE_PREDICTIONS_ID" : "predictions"
+}
