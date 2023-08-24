@@ -12,13 +12,13 @@
 
 ## Installation
 
-To pip install `keyVD` from github:
+To clone `keyVD` from github:
 
 ```bash
 pip install git+https://github.com/saberzahhar/keyVD.git
 ```
 
-`keyVD` relies on classic packages such as `gensim`, `nltk`, `numpy` or even `scipy` for text processing and calculations.
+`keyVD` relies on classic NLP/ML packages such as `gensim`, `nltk`, `numpy` or even `scipy` for text processing and calculations:
 
 ```bash
 # install the required packages
@@ -62,4 +62,5 @@ A detailed example for benchmarking is provided in the [`notebooks/`](notebooks/
 - [b_predictions](notebooks/b_predictions.ipynb): create predictions.csv containing data about model predictions.
 - [c_evaluations](notebooks/c_evaluations.ipynb): evaluation metrics and visualization for all models.
 
-Note: you can use the [setup.json](setup.json) file to modify parameters and activate compatibility with Google Cloud's BigQuery, the notebook's identifier should have all the required access to the project specifid in the parameters.
+**NOTE**: you need to delete the .csv files in the folder to reconduct the experiments a and b from start.
+**NOTE 2**: you can use the [setup.json](setup.json) to save the .csv into Google Cloud's BigQuery, the notebook's should be logged in with all required access to the specified project.
