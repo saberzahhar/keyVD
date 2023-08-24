@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```python
 
 # 0/ define variables and import module
-text="this article is a generic example of a data scientist discussing pre processing methods." # can also be a path to a .txt file
+text="this article is a generic example of a data scientist discussing data processing methods." # can also be a path to a .txt file
 vocabulary="pre-processing;data science;mathematics" # can also be a path to a .txt file
 parameters={"vector_size":300, "window":3, "min_count":1, "n_grams":3} # default values
 n_keys=5 # default value
@@ -62,6 +62,6 @@ A detailed example for benchmarking is provided in the [`notebooks/`](notebooks/
 - [b_predictions](notebooks/b_predictions.ipynb): create predictions.csv containing data about model predictions.
 - [c_evaluations](notebooks/c_evaluations.ipynb): evaluation metrics and visualization for all models.
 
-**NOTE**: you need to delete the .csv files in the folder to reconduct the experiments a and b from start.
+**NOTE**: you need to delete the .csv files in the folder to reconduct the experiments [a_datasets](notebooks/a_datasets.ipynb) and [b_predictions](notebooks/b_predictions.ipynb) from start.
 
-**NOTE 2**: you can use the [setup.json](setup.json) to save the .csv into Google Cloud's BigQuery, the notebook's should be logged in with all required access to the specified project.
+**NOTE 2**: you can use the [setup.json](setup.json) to choose whether to store experiments [a_datasets](notebooks/a_datasets.ipynb) and [b_predictions](notebooks/b_predictions.ipynb) results in a .csv or in a Google Cloud's BigQuery table, the notebook's should be logged with credentials having the required access.
