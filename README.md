@@ -63,4 +63,5 @@ A detailed example for benchmarking is provided in the [`notebooks/`](notebooks/
 - [c_evaluations](notebooks/c_evaluations.ipynb): evaluation metrics and visualization for all models.
 
 **NOTE**: you need to delete the .csv files in the folder to reconduct the experiments a and b from start.
+
 **NOTE 2**: you can use the [setup.json](setup.json) to save the .csv into Google Cloud's BigQuery, the notebook's should be logged in with all required access to the specified project.
