@@ -12,10 +12,10 @@
 
 ## Installation
 
-To clone `keyVD` from github:
+To clone `keyVD` in your Jupyter Notebook instance:
 
 ```bash
-pip install git+https://github.com/saberzahhar/keyVD.git
+git clone https://github.com/saberzahhar/keyVD
 ```
 
 `keyVD` relies on classic NLP/ML packages such as `gensim`, `nltk`, `numpy` or even `scipy` for text processing and calculations:
